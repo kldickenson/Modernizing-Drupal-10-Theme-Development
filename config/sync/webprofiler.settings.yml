@@ -10,6 +10,7 @@ active_toolbar_items:
   devel: devel
   forms: forms
   request: request
+  services: services
   theme: theme
   user: user
   views: views
@@ -24,7 +25,6 @@ active_toolbar_items:
   mail: '0'
   memory: '0'
   routing: '0'
-  services: '0'
   state: '0'
   time: '0'
   translations: '0'
