@@ -1,0 +1,9 @@
+{% if content %}
+
+  {{
+    include('@organisms/header-home.html.twig', {
+      'blocks': content
+    })
+  }}
+
+{% endif %}
