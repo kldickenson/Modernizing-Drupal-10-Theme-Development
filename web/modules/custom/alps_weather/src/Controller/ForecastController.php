@@ -60,7 +60,9 @@ class ForecastController extends ControllerBase {
         ],
         'drupalSettings' => [
           'alps_weather' => [
-            'message' => 'Hello from the render array!',
+            // 'message' => 'Hello from the render array!',
+              'message' => 'Welcome to the weather for ' . $city . '!',
+
           ],
         ],
       ],
